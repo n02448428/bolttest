@@ -4,10 +4,3 @@ if (!Array.prototype.toSorted) {
     return [...this].sort(compareFn);
   };
 }
-// Attempt to run npm install programmatically
-const { execSync } = require('child_process');
-try {
-  execSync('npm install', { stdio: 'inherit' });
-} catch (error) {
-  console.error('Install failed:', error.message);
-}
