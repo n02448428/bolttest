@@ -4,4 +4,11 @@
   "dependencies": {
     "express": "^4.18.2"
   }
+
+  {
+  "scripts": {
+    "preinstall": "node fix-tosorted.js"
+  }
+}
+
 }
